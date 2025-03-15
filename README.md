@@ -16,6 +16,10 @@ A SwiftUI-based news application that fetches data from the **NewsAPI**, display
 
  ✅ SwiftUI 
  ✅ Combine
+ ✅ MVVM architecture
+ ✅ CoreData
+ ✅ WebKit
+
 
 ## 📌 Requirements
  ✅ iOS 13.0+ 
