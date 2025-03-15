@@ -11,6 +11,9 @@ A SwiftUI-based news application that fetches data from the **NewsAPI**, display
 ✅ **Delete saved articles**  
 ✅ Modern **SwiftUI UI components**  
 ✅ Dark mode support 🌙  
+✅ Article categorization (e.g., filtering by category like Business, Sports, Tech).
+✅ Share button to share articles via iOS ShareSheet.
+
 
 ---
 ## 🏗️ Architecture
