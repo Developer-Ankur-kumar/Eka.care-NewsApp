@@ -13,12 +13,12 @@ A SwiftUI-based news application that fetches data from the **NewsAPI**, display
 ✅ Dark mode support 🌙  
 
 ---
-🏗️ Architecture
-MVVM (Model-View-ViewModel)
-Core Data for local storage
-SwiftUI & Combine for reactive programming
-Networking using URLSession
-AsyncImage for optimized image loading
+## 🏗️ Architecture
+✅ MVVM (Model-View-ViewModel)
+✅ Core Data for local storage
+✅ SwiftUI & Combine for reactive programming
+✅ Networking using URLSession
+✅ AsyncImage for optimized image loading
 
 
 ## 📌 Requirements
