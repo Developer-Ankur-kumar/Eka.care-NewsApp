@@ -13,6 +13,14 @@ struct HomeView: View {
 
     var body: some View {
         NavigationStack{
+            Form {
+                Picker(selection: $viewModel.category, label: Text("Category")) {
+                    ForEach(Category.allCases, id: \.self) {
+                        Text(String(describing: $0))
+                    }
+                }
+
+            }.frame(maxHeight: 96)
             List(viewModel.articles) { article in
                     NewsCellCardView(article: article)
                     .padding()
