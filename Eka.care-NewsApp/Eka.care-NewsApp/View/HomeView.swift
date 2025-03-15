@@ -1,0 +1,36 @@
+//
+//  HomeView.swift
+//  Eka.care-NewsApp
+//
+//  Created by Ankur Kumar on 13/03/25.
+//
+
+import SwiftUI
+
+struct HomeView: View {
+    
+    @StateObject var viewModel = TopHeadlinesViewModel()
+
+    var body: some View {
+        NavigationStack{
+            List(viewModel.articles) { article in
+                    NewsCellCardView(article: article)
+                    .padding()
+                    .listRowInsets(EdgeInsets())
+                    .buttonStyle(PlainButtonStyle())
+                    .listRowSeparator(.hidden)
+                }
+            .navigationTitle("TopHeadline News")
+            .listStyle(PlainListStyle())
+
+            }
+            .onAppear{
+                self.viewModel.loadNews()
+            }
+             
+            
+        }
+      
+    }
+
+
