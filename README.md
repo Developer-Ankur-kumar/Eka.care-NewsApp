@@ -14,13 +14,14 @@ A SwiftUI-based news application that fetches data from the **NewsAPI**, display
 
 ---
 
- SwiftUI
- Combine
- 
-Requirements
-iOS 13.0+
-Xcode 11.5
-Swift 5.2
+ ✅ SwiftUI 
+ ✅ Combine
+
+## 📌 Requirements
+ ✅ iOS 13.0+ 
+ ✅ Xcode 11.5
+ ✅ Swift 5.2
+
 
 ## 🚀 Setup & Installation
 
