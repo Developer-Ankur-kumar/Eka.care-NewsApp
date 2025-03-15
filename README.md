@@ -18,5 +18,5 @@ A SwiftUI-based news application that fetches data from the **NewsAPI**, display
 
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/YOUR_USERNAME/SwiftUI-NewsApp.git
+git clone https://github.com/Developer-Ankur-kumar/Eka.care-NewsApp.git
 cd SwiftUI-NewsApp
